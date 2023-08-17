@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "assert": "^2.0.0",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "standard": "^17.0.0"
+  },
+  "scripts": {
+    "tests_units": "cd tests && mocha --recursive --exit",
+    "start": "standard index.js && node index.js tests/guide/"
+  }
+}
